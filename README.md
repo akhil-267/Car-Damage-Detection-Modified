@@ -157,16 +157,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Bootstrap**: For the responsive UI components
 - **OpenCV**: For computer vision capabilities
 
-## 📞 Support
-
-If you encounter any issues or have questions:
-
-1. Check the [Issues](https://github.com/akhil-267/Car-Damage-Detection-Modified/issues) page
-2. Create a new issue with detailed description
-3. Include error messages and steps to reproduce
-
----
-
-**Made with ❤️ by [Your Name]**
-
 *This project demonstrates the integration of deep learning models with web applications for real-world computer vision tasks.* 
