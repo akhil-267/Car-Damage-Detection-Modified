@@ -6,6 +6,15 @@
 
 ## Step-by-Step Deployment
 
+## Pin Python Version (Important)
+Render may default to a newer Python (for example 3.14), which can force source builds for packages like SciPy and fail with missing Fortran compiler errors.
+
+Add both of these files at repository root:
+- `.python-version` containing `3.11.11`
+- `runtime.txt` containing `python-3.11.11`
+
+After adding these files, redeploy using **Clear build cache & deploy** in Render.
+
 ### 1. Prepare Your Repository
 - Make sure all files are committed and pushed to GitHub
 - Ensure `best.pt` (your YOLO model) is in the root directory
@@ -48,4 +57,4 @@
 ## Troubleshooting
 - Check build logs in Render dashboard
 - Ensure all dependencies are in `requirements.txt`
-- Verify `best.pt` file is in the repository 
+- Verify `best.pt` file is in the repository
